@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.4c24d356.css",
+    "main.js": "/Portfolio/static/js/main.746173c7.js",
+    "static/js/787.128fc6e9.chunk.js": "/Portfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/mainPhoto.jpg": "/Portfolio/static/media/mainPhoto.d3b6782e6479a12613e9.jpg",
+    "static/media/Poppins.ttf": "/Portfolio/static/media/Poppins.35d26b781dc5fda684cc.ttf",
+    "static/media/Oswald.ttf": "/Portfolio/static/media/Oswald.46d7853f0185f6bf0c93.ttf",
+    "static/media/JosefinSans.ttf": "/Portfolio/static/media/JosefinSans.1bfcfba29eda50476f98.ttf",
+    "static/media/social.png": "/Portfolio/static/media/social.42cb64afcd283968a668.png",
+    "static/media/todo.png": "/Portfolio/static/media/todo.d9882015c19941156794.png",
+    "static/media/reactIcon.svg": "/Portfolio/static/media/reactIcon.fdd3331d261ad6d5e1c92448737aa2aa.svg",
+    "static/media/apiIcon.svg": "/Portfolio/static/media/apiIcon.7cd6057b07c53c68b057aa2b46acc055.svg",
+    "static/media/reduxIcon.svg": "/Portfolio/static/media/reduxIcon.609190d142776d97540d56376fce6a2c.svg",
+    "static/media/cssIcon.svg": "/Portfolio/static/media/cssIcon.d8d3d071fa0f4a37e273ab6742b2b6a0.svg",
+    "static/media/gitIcon.svg": "/Portfolio/static/media/gitIcon.4914d57c6be0c41264d63266b0234c1a.svg",
+    "static/media/typescriptIcon.svg": "/Portfolio/static/media/typescriptIcon.7178f9e6e4be8fa97fff8ca16cb17dea.svg",
+    "static/media/linkedin.svg": "/Portfolio/static/media/linkedin.969236ded372221cea34d583f39f5d95.svg",
+    "static/media/material-ui.svg": "/Portfolio/static/media/material-ui.456bfb02539777f812137c514d397868.svg",
+    "static/media/mailIcon.svg": "/Portfolio/static/media/mailIcon.c313d7fda54dbe44bd47b67c7a95c533.svg",
+    "static/media/formIcon.svg": "/Portfolio/static/media/formIcon.a793b191e8be49dc92a5bb898509e033.svg",
+    "static/media/jsIcon.svg": "/Portfolio/static/media/jsIcon.1192a303c7e00b85f5dedb939fd9a088.svg",
+    "index.html": "/Portfolio/index.html",
+    "static/media/facebook.svg": "/Portfolio/static/media/facebook.5575454099a624a360f1a6a9b92fcf3f.svg",
+    "main.4c24d356.css.map": "/Portfolio/static/css/main.4c24d356.css.map",
+    "main.746173c7.js.map": "/Portfolio/static/js/main.746173c7.js.map",
+    "787.128fc6e9.chunk.js.map": "/Portfolio/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4c24d356.css",
+    "static/js/main.746173c7.js"
+  ]
+}
