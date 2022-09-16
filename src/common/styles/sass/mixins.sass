@@ -1,0 +1,20 @@
+@import './variables'
+
+@mixin text($fontFamily, $fontSize, $lineHeight )
+  font-family: $fontFamily
+  font-size: $fontSize
+  line-height: $lineHeight
+  color: $textColor
+
+@mixin btn()
+  background-color: $textColor
+  color: $bgSecondColor
+  font-family: $textFontFamily
+  padding: 10px 20px
+  margin: 20px 0
+
+@mixin icon()
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
+  padding: 2px
