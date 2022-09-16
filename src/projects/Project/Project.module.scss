@@ -1,0 +1,64 @@
+@import '../../common/styles/sass/variables';
+@import '../../common/styles/sass/mixins';
+
+@font-face {
+  font-family: "Poppins";
+  src: url('../../assets/fonts/Poppins.ttf')
+}
+
+.project {
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: $bgSecondColor;
+  margin-bottom: 30px;
+
+  .image {
+    @include icon();
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    &::before {
+      position: absolute;
+      content: '';
+      background-color: white;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      opacity: 0.4;
+    }
+
+    .viewBtn {
+      @include btn();
+      padding: 10px 20px;
+      position: relative;
+      z-index: 1;
+    }
+  }
+
+  .fullDescription {
+    padding: 25px 20px;
+
+    .title {
+      @include text($textFontFamily, 16px, 1.2 );
+      letter-spacing: 1px;
+      margin: 0 0 5px;
+    }
+
+    .description {
+      @include text($textFontFamily, 12px, 1.0);
+      font-weight: 400;
+    }
+  }
+}
+
+
+
+
