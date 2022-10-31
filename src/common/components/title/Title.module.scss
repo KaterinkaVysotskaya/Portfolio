@@ -1,17 +1,24 @@
 @import '../../styles/sass/variables';
+@import '../../styles/sass/mixins';
 @font-face {
   font-family: "Josefin Sans";
   src: url('../../../assets/fonts/JosefinSans.ttf')
 }
 
 .title {
-  margin-bottom: 30px;
+  @include text($titleFontFamily, 36px, 1.2);
+  text-transform: capitalize;
+  letter-spacing: 5px;
+  text-align: center;
+  margin: 0 0 30px;
   position: relative;
-
+    h2 {
+      margin: 0;
+    }
   &::before {
     position: absolute;
     content: '';
-    background-color: $textColor;
+    background-color: $primaryColor;
     width: 55px;
     height: 1px;
     bottom: -10px;
@@ -19,17 +26,17 @@
     transform: translate(-50%, 50%);
   }
 
-  .title h2 {
-    color: $textColor;
-    margin: 0;
-    font-family: $titleFontFamily;
-    font-size: 36px;
-    font-weight: 400;
-    text-transform: uppercase;
-    font-style: italic;
-    line-height: 1.2em;
-    letter-spacing: 3px;
-  }
+  //.title h2 {
+  //  color: $textColor;
+  //  margin: 0;
+  //  font-family: $titleFontFamily;
+  //  font-size: 36px;
+  //  font-weight: 400;
+  //  text-transform: uppercase;
+  //  font-style: italic;
+  //  line-height: 1.2em;
+  //  letter-spacing: 3px;
+  //}
 
 }
 

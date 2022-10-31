@@ -6,6 +6,16 @@
     display: flex;
     justify-content: space-between;
     a {
+        text-decoration: none;
         @include text($textFontFamily, 15px, 1.2 );
+        &:hover {
+            color: $primaryColor;
+        }
+    }
+    .active {
+        color: $primaryColor;
+    }
+    @media screen and (max-width: 400px) {
+        display: none;
     }
 }

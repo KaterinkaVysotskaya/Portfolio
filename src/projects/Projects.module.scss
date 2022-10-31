@@ -4,8 +4,7 @@
   src: url('../assets/fonts/Oswald.ttf')
 }
 .projectsBlock {
-  min-height: 100vh;
-  background-color:$bgColor ;
+  min-height: 80vh;
   .projectsContainer {
     flex-direction: column;
     justify-content: flex-start;

@@ -18,3 +18,19 @@
   background-position: center
   background-repeat: no-repeat
   padding: 2px
+
+@mixin container()
+    width: 80%
+    margin: 0 auto
+
+@mixin flex ($direction, $justifyContent, $alighItems, $wrap)
+  display: flex
+  flex-direction: $direction
+  justify-content: $justifyContent
+  align-items: $alighItems
+  flex-wrap: $wrap
+
+@mixin bgSettings()
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat

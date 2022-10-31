@@ -1,6 +1,6 @@
 @import '../../common/styles/sass/variables';
 @import '../../common/styles/sass/mixins';
-
+@import "../../common/components/Button/Button.module";
 @font-face {
   font-family: "Poppins";
   src: url('../../assets/fonts/Poppins.ttf')
@@ -14,7 +14,7 @@
   text-align: center;
   background-color: $bgSecondColor;
   margin-bottom: 30px;
-
+  z-index: 1;
   .image {
     @include icon();
     width: 300px;
@@ -36,7 +36,9 @@
     }
 
     .viewBtn {
-      @include btn();
+      @extend .btn;
+      //@include btn();
+      text-decoration: none;
       padding: 10px 20px;
       position: relative;
       z-index: 1;
