@@ -19,11 +19,11 @@ function Projects() {
                 <Title text={'Projects'}/>
                 <div className={s.projects}>
                     <Project style={social}
-                             title={'Name of project 1'}
-                             description={'description of project 1'}/>
+                             title={'Social network'}
+                             description={'My social network - project'}/>
                     <Project style={todo}
-                             title={'Name of project 2'}
-                             description={'description of project 2'}/>
+                             title={'TodoList'}
+                             description={'My Todolist - project'}/>
                 </div>
             </div>
 
