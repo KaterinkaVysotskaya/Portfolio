@@ -9,7 +9,7 @@ function Project(props) {
             <Fade top>
                 <Tilt className="Tilt" options={{ max : 25 }}  >
             <div className={s.image} style={props.style}>
-                <a href="Look" className={s.viewBtn}>Look</a>
+                <a href="https://katerinkavysotskaya.github.io/SocialNetwork/" className={s.viewBtn}>Look</a>
             </div>
             <div className={s.fullDescription}>
                 <h3 className={s.title}>{props.title}</h3>
