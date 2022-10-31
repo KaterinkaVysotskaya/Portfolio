@@ -3,7 +3,7 @@ import s from './Footer.module.scss'
 import Title from "../common/components/title/Title";
 import Fade from 'react-reveal/Fade';
 import gMail from "../assets/image/contactIcons/mailIcon.svg";
-import gitHub from "../assets/image/contactIcons/gitIcon.svg";
+import gitHub from "../assets/image/contactIcons/github-svgrepo-com.svg";
 import FB from "../assets/image/contactIcons/facebook.svg";
 import linkedIn from "../assets/image/contactIcons/linkedin.svg";
 import vkIcon from "../assets/image/contactIcons/vk.svg";

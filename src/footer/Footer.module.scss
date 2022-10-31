@@ -3,46 +3,54 @@
 
 .footerBlock {
   min-height: 300px;
-  @include flex (row, center, stretch, nowrap);
+  @include flex(row, center, stretch, nowrap);
+
   .container {
     @include container();
     @include flex(column, space-between, center, nowrap);
     padding: 100px 0 20px;
+
     .links {
       @include flex(row, space-between, center, nowrap);
       width: 400px;
       margin-top: 30px;
+
       @media screen and (max-width: 505px) {
         width: 100%;
       }
+
       .link {
-        @include icon;
         width: 60px;
         height: 60px;
-        border: 1px solid #eeeeee;
         border-radius: 50%;
-        background: #fff;
+
         &:hover {
           border: 2px solid $primaryColor;
           transition: all 0.3s ease-in-out 0s;
         }
+
         @media screen and (max-width: 380px) {
           width: 100%;
           height: 100%;
         }
+
         a {
           width: 100%;
           height: 100%;
           @include flex(row, center, center, nowrap);
+
           img {
+            border-radius: 50%;
+            background: #fff;
             width: 100%;
           }
         }
       }
     }
+
     .copyrights {
       margin-top: 40px;
-      @include text($textFontFamily, 10px, 1.2 );
+      @include text($textFontFamily, 10px, 1.2);
       opacity: 0.6;
     }
   }
