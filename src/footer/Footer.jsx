@@ -22,18 +22,36 @@ function Footer() {
                 <div className={s.container}>
                     <Title text={'Ekaterina Vysotskaya'}/>
                     <div className={s.links}>
-                        <div className={s.link}><a href="https://github.com/KaterinkaVysotskaya"><img src={gitHub}
-                                                                                                      alt=""/></a></div>
-                        <div className={s.link}><a href=""><img src={gMail} alt=""/></a></div>
-                        <div className={s.link}><a
-                            href="https://free.facebook.com/profile.php?eav=AfZPB15Fz7bG-iBs-DBEL14svIc9alA3xoIIWJdGrW1Ld9wG-272ZsCm29B_swXlnRM&refid=7&paipv=0"><img
-                            src={FB} alt=""/></a></div>
-                        <div className={s.link}><a href="https://linkedin.com/in/ekaterina-vysotskaya-93a459243"><img
-                            src={linkedIn} alt=""/></a>
+                        <div className={s.link}><a target="_blank" href="https://github.com/KaterinkaVysotskaya">
+                            <img
+                                src={gitHub}
+                                alt=""/>
+                        </a>
                         </div>
-                        <div className={s.link}><a href="https://vk.com/vysotskaya.katya"><img src={vkIcon} alt=""/></a>
+                        <div className={s.link}>
+                            <a href="" target="_blank">
+                                <img onClick={() => window.location = 'mailto:katerinka.vysotskaya@gmail.com'} src={gMail} alt=""/>
+                            </a>
                         </div>
-                        <div className={s.link}><a href=""><img src={tgIcon} alt=""/></a></div>
+                        <div className={s.link}>
+                            <a target="_blank"
+                               href="https://free.facebook.com/profile.php?eav=AfZPB15Fz7bG-iBs-DBEL14svIc9alA3xoIIWJdGrW1Ld9wG-272ZsCm29B_swXlnRM&refid=7&paipv=0">
+                                <img src={FB} alt=""/>
+                            </a>
+                        </div>
+                        <div className={s.link}>
+                            <a href="https://linkedin.com/in/ekaterina-vysotskaya-93a459243" target="_blank">
+                                <img src={linkedIn} alt=""/>
+                            </a>
+                        </div>
+                        <div className={s.link}><a href="https://vk.com/vysotskaya.katya" target="_blank"><img
+                            src={vkIcon} alt=""/></a>
+                        </div>
+                        <div className={s.link}>
+                            <a href="https://t.me/vysots_kaya_k" target="_blank">
+                                <img  src={tgIcon} alt=""/>
+                            </a>
+                        </div>
                     </div>
                     <span className={s.copyrights}>©2022. All rights reserved.</span>
                 </div>
