@@ -8,7 +8,10 @@
   .container {
     @include container();
     @include flex(column, flex-start, center, nowrap);
-
+    .messageSanded {
+      color: #fff;
+      @include text($titleFontFamily, 16px, 1.2);
+    }
     .contactForm {
       @include flex(column, flex-start, stretch, nowrap);
       margin-top: 60px;
@@ -18,8 +21,9 @@
         width: 100%;
       }
 
+
       .formArea,
-      .messageArea {
+      .messageArea  {
         background-color: $bgSecondColor;
         border: 1px solid $bgSecondColor;
         box-sizing: border-box;
