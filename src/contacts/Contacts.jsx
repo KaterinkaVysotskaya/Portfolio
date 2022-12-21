@@ -15,7 +15,7 @@ function Contacts() {
         },
 
         onSubmit: (values, formikHelpers) => {
-            axios.post('http://localhost:3010/sendMessage', {
+            axios.post('https://gmail-smtp-seven.vercel.app/sendMessage', {
                 name: values.name,
                 contacts: values.contacts,
                 message: values.message
